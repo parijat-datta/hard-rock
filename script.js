@@ -101,7 +101,8 @@ const parent=document.querySelector(".single-lyrics")
 const lyric=document.querySelector(".single-lyrics pre");
 const lyricHead=document.querySelector(".single-lyrics h2");
 
-lyric.innerHTML=``;
+lyric.innerHTML="";
+lyricHead.innerHTML="";
 const text=t.lyrics;
 if(text!=null) {lyric.innerHTML=text;
 const headline=`${t.lyrics.slice(0,16)}...`;

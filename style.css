@@ -42,7 +42,7 @@ body{
     border-radius: 15px;
 }
 
-
+/*This is for Search Result Section*/
 
 .child{
 
@@ -114,6 +114,7 @@ text-shadow: 0 0 3px black;
 
 }
 
+
 a{
 
     text-decoration:none;
@@ -125,11 +126,14 @@ a:hover{
     text-decoration:none;
     color:black;
 }
+/*This is for Search Result Section Ends Here*/
+
 
 html {
     scroll-behavior: smooth;
   }
 
+/*This is the text that is shown when there is no lyric*/
   .noLyric{
 
     font-size:16px;
