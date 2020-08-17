@@ -65,8 +65,7 @@ const topTracks=r.artist.link;
     
 });
 
-console.log(results);
-console.log(r.link);
+
 
 }
 
