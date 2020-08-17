@@ -57,15 +57,16 @@ const topTracks=r.artist.link;
     <li class="child">Song Name:<span>${songTitle} </span>&nbsp Album:<span>${albumTitle} </span>&nbsp Artist:<span>${artistName}</span>&nbsp<span><br><img src="${image}"></span><br>
     <span><button onclick="findText('${r.artist.name}','${r.title}')" class="btn btn-success"><a href="#mainLyric">Get Lyrics</a></button></span><br>
 <span><button onclick="NewTab('${topTracks}')" class="btn btn-warning">Artist's Top Tracks</button></span><br><span><button onclick="NewTab('${track}')" class="btn btn-danger">Play Now</button></span>
-
-</li>
-    `;
+<br><img src="${albumCover}"<br>
+<h6>Album Cover</h6>
+</li>`;
     
     if(count<10)searchResult.appendChild(card);
     
 });
 
-
+console.log(results);
+console.log(r.link);
 
 }
 
