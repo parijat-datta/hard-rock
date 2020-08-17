@@ -43,7 +43,7 @@ const displayResult=(results)=>{
 results.data.forEach(r => {
     const searchResult=document.querySelector(".search-result");
     const songTitle=r.title_short;
-    const  albumTitle=`${r.album.title.slice(0,21)}`;
+    const  albumTitle=r.album.title;
 const topTracks=r.artist.link;
     
     const artistName=r.artist.name;
